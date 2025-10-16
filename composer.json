@@ -1,0 +1,21 @@
+{
+    "name": "shrikeh/cqrs-contracts",
+    "description": "Contracts for CQRS-style applications",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shrikeh\\Cqrs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Barney Hanlon",
+            "email": "symfony@shrikeh.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": ">=8.3"
+    }
+}
