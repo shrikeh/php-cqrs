@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Bus\Exception;
+namespace Shrikeh\Cqrs\Bus\Exception;
 
-use Throwable;
+use Shrikeh\Cqrs\Exception\CqrsException;
 
-interface MessageBusException extends Throwable
+interface MessageBusException extends CqrsException
 {
-
 }

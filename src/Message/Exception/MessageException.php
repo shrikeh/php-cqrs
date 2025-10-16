@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Message\Exception;
 
-final readonly class MessageException
-{
+use Shrikeh\Cqrs\Exception\CqrsException;
 
+interface MessageException extends CqrsException
+{
 }

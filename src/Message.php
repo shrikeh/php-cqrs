@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace Shrikeh\Cqrs;
 
 interface Message
 {
-
 }

@@ -2,13 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Bus;
+namespace Shrikeh\Cqrs\Bus;
 
-use App\Bus\Exception\QueryBusException;
-use App\Message\Query;
-use App\Message\Result;
+use Shrikeh\Cqrs\Bus;
+use Shrikeh\Cqrs\Bus\QueryBus\Exception\QueryBusException;
+use Shrikeh\Cqrs\Message\Query;
+use Shrikeh\Cqrs\Message\Result;
 
-interface QueryBus extends MessageBus
+interface QueryBus extends Bus
 {
     /**
      * @param Query $query

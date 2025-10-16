@@ -4,7 +4,15 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Bus\QueryBus\Attribute;
 
-final readonly class AsQueryBus
-{
+use Attribute;
+use Shrikeh\Cqrs\Bus\Attribute\AsBus;
+use Shrikeh\Cqrs\Bus\Type;
 
+#[Attribute(Attribute::TARGET_CLASS)]
+readonly class AsQueryBus extends AsBus
+{
+    public function __construct()
+    {
+        parent::__construct(Type::QUERY_BUS);
+    }
 }

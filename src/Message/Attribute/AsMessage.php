@@ -4,7 +4,12 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Message\Attribute;
 
-final readonly class AsMessage
-{
+use Attribute;
+use Shrikeh\Cqrs\Message\Type;
 
+abstract readonly class AsMessage
+{
+    protected function __construct(public Type $type)
+    {
+    }
 }

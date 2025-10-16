@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Message;
+namespace Shrikeh\Cqrs\Message;
 
-use App\Message;
+use Shrikeh\Cqrs\Message;
 
 interface Query extends Message
 {
-
 }

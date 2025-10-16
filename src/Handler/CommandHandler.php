@@ -4,9 +4,8 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Handler;
 
-use Shrikeh\Cqrs\MessageHandler;
+use Shrikeh\Cqrs\Handler;
 
-interface CommandHandler extends MessageHandler
+interface CommandHandler extends Handler
 {
-
 }

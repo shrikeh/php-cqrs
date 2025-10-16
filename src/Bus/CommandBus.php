@@ -2,13 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Bus;
+namespace Shrikeh\Cqrs\Bus;
 
-use App\Bus\Exception\CommandBusException;
-use App\Message\Command;
-use App\Message\Result;
+use Shrikeh\Cqrs\Bus;
+use Shrikeh\Cqrs\Bus\CommandBus\Exception\CommandBusException;
+use Shrikeh\Cqrs\Message\Command;
+use Shrikeh\Cqrs\Message\Result;
 
-interface CommandBus extends MessageBus
+interface CommandBus extends Bus
 {
     /**
      * @param Command $command

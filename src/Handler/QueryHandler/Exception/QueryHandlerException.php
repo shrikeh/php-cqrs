@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Handler\QueryHandler\Exception;
 
-final readonly class QueryHandlerException
-{
+use Shrikeh\Cqrs\Handler\Exception\HandlerException;
 
+interface QueryHandlerException extends HandlerException
+{
 }

@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Shrikeh\Cqrs\MessageHandler;
+namespace Shrikeh\Cqrs\Handler;
 
-use Shrikeh\Cqrs\MessageHandler;
+use Shrikeh\Cqrs\Handler;
 
-interface QueryHandler extends MessageHandler
+interface QueryHandler extends Handler
 {
-
 }

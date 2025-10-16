@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Shrikeh\Cqrs\Message;
 
-final readonly class Type
+enum Type: string
 {
-
+    case COMMAND = 'message.command';
+    case QUERY = 'message.query';
+    case RESULT = 'message.result';
 }
