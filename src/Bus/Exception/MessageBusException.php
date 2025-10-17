@@ -6,6 +6,9 @@ namespace Shrikeh\Cqrs\Bus\Exception;
 
 use Shrikeh\Cqrs\Exception\CqrsException;
 
+/**
+ * @psalm-api
+ */
 interface MessageBusException extends CqrsException
 {
 }

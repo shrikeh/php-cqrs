@@ -6,6 +6,9 @@ namespace Shrikeh\Cqrs\Message;
 
 use Shrikeh\Cqrs\Message;
 
+/**
+ * @psalm-api
+ */
 interface Command extends Message
 {
 }

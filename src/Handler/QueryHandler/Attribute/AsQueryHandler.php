@@ -8,8 +8,10 @@ use Attribute;
 use Shrikeh\Cqrs\Handler\Attribute\AsHandler;
 use Shrikeh\Cqrs\Handler\Type;
 
+/**
+ * @psalm-api
+ */
 #[Attribute(Attribute::TARGET_CLASS)]
-
 readonly class AsQueryHandler extends AsHandler
 {
     public function __construct()

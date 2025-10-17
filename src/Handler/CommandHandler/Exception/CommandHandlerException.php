@@ -6,6 +6,9 @@ namespace Shrikeh\Cqrs\Handler\CommandHandler\Exception;
 
 use Shrikeh\Cqrs\Handler\Exception\HandlerException;
 
+/**
+ * @psalm-api
+ */
 interface CommandHandlerException extends HandlerException
 {
 }

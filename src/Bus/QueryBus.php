@@ -9,6 +9,9 @@ use Shrikeh\Cqrs\Bus\QueryBus\Exception\QueryBusException;
 use Shrikeh\Cqrs\Message\Query;
 use Shrikeh\Cqrs\Message\Result;
 
+/**
+ * @psalm-api
+ */
 interface QueryBus extends Bus
 {
     /**

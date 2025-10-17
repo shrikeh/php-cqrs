@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="@package_version@" timestamp="2025-10-17T10:15:24+00:00">
+  <file name="Shrikeh\Cqrs\Handler\CommandHandler\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Handler\QueryHandler\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Handler\Attribute\">
+    <violation beginline="1" rule="Stable Dependencies Principle" ruleset="Stable Dependencies Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should depend in the direction of stability.
+
+            This package is more stable (0.333) than 1 package(s) that it depends on.
+            The packages that are more stable are
+
+            * Shrikeh\Cqrs\Handler (0.5)</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Bus\QueryBus\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Bus\CommandBus\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Bus\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Bus\Attribute\">
+    <violation beginline="1" rule="Stable Dependencies Principle" ruleset="Stable Dependencies Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should depend in the direction of stability.
+
+            This package is more stable (0.333) than 1 package(s) that it depends on.
+            The packages that are more stable are
+
+            * Shrikeh\Cqrs\Bus (0.8)</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Message\Exception\">
+    <violation beginline="1" rule="Stable Dependencies Principle" ruleset="Stable Dependencies Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should depend in the direction of stability.
+
+            This package is more stable (0.25) than 1 package(s) that it depends on.
+            The packages that are more stable are
+
+            * Shrikeh\Cqrs\Exception (0.25)</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Message\Query\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Message\Result\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Message\Attribute\">
+    <violation beginline="1" rule="Stable Dependencies Principle" ruleset="Stable Dependencies Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should depend in the direction of stability.
+
+            This package is more stable (0.25) than 1 package(s) that it depends on.
+            The packages that are more stable are
+
+            * Shrikeh\Cqrs\Message (0.25)</violation>
+  </file>
+  <file name="Shrikeh\Cqrs\Message\Command\Exception\">
+    <violation beginline="1" rule="Stable Abstractions Principle" ruleset="Stable Abstractions Principle" externalInfoUrl="http://www.phpmetrics.org/documentation/index.html" priority="3">            Packages should be either abstract and stable or concrete and instable.
+
+            This package is instable and abstract.</violation>
+  </file>
+</pmd>

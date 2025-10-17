@@ -8,6 +8,9 @@ use Attribute;
 use Shrikeh\Cqrs\Message\Attribute\AsMessage;
 use Shrikeh\Cqrs\Message\Type;
 
+/**
+ * @psalm-api
+ */
 #[Attribute(Attribute::TARGET_CLASS)]
 readonly class AsResult extends AsMessage
 {

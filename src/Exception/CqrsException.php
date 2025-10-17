@@ -6,6 +6,9 @@ namespace Shrikeh\Cqrs\Exception;
 
 use Throwable;
 
+/**
+ * @psalm-api
+ */
 interface CqrsException extends Throwable
 {
 }

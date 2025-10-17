@@ -9,7 +9,17 @@ ifndef VERBOSE
 .SILENT:
 endif
 
-init:
+-include .dev/make/docker.mk
+-include .dev/make/php.mk
+
+.auth:
+	@.dev/sh/auth.sh;
+
+auth:
+	$(info [+] Make: Checking for token for composer)
+	${MAKE} --no-print-directory .auth;
+
+init: auth
 	$(info [+] Make: Installing all host dependencies and configuring project)
 	brew bundle install --quiet;
 	mise trust > /dev/null 2>&1;
@@ -17,7 +27,6 @@ init:
 	${MAKE} --no-print-directory dotenv-local envrc-local;
 	direnv reload
 	pre-commit install
-
 
 dotenv-local:
 	bash -c "[ -f './.env.local' ] || ${MAKE} .create-env-local";
@@ -27,23 +36,10 @@ envrc-local:
 
 .create-env-local:
 	$(info [+] Make: Creating .env.local from template)
-	docker compose run --quiet --remove-orphans --rm gomplate --file "/templates/.env.local.tpl" --out "/output/.env.local"
-
+	docker compose run --quiet --remove-orphans --rm gomplate --file "/templates/.env.local.tmpl" --out "/output/.env.local"
 .create-envrc-local:
 	$(info [+] Make: Creating .envrc.local from template)
-	docker compose run --quiet --remove-orphans --rm gomplate --file "/templates/.envrc.local.tpl" --out "/output/.envrc.local"
+	docker compose run --quiet --remove-orphans --rm gomplate --file "/templates/.envrc.local.tmpl" --out "/output/.envrc.local"
 
-push-image:
-	$(info [+] Make: Pushing to ghcr.io...)
-	docker compose push
 
-build-image:
-	$(info [+] Make: Building docker image...)
-	docker compose build
-
-login:
-	$(info [+] Make: Logging into docker container...)
-	docker compose run --remove-orphans -it "${APP_CONTAINER}" /bin/sh
-
-up:
-	docker compose up --remove-orphans -d
+test: .test

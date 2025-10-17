@@ -1,0 +1,2338 @@
+{
+    "Shrikeh\\Cqrs\\Handler\\QueryHandler": {
+        "name": "Shrikeh\\Cqrs\\Handler\\QueryHandler",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Handler\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler",
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.5,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\": 0
+        },
+        "distance": 0.35355339059327373,
+        "normalized_distance": 0.5,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException": {
+        "name": "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Handler\\Exception\\",
+        "pageRank": 0.05,
+        "afferentCoupling": 2,
+        "efferentCoupling": 1,
+        "instability": 0.33,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\CommandHandlerException",
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\QueryHandlerException"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\",
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.3333333333333333,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Exception\\": 0.25
+        },
+        "distance": 0.23570226039551578,
+        "normalized_distance": 0.33333333333333326,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\CommandHandler": {
+        "name": "Shrikeh\\Cqrs\\Handler\\CommandHandler",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Handler\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\CommandHandlerException": {
+        "name": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\CommandHandlerException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Exception\\CommandHandlerException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Handler\\Exception\\": 0.3333333333333333
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\AsCommandHandler": {
+        "name": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\AsCommandHandler",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\AsCommandHandler"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\": 0.3333333333333333
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\QueryHandlerException": {
+        "name": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\QueryHandlerException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Exception\\QueryHandlerException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Handler\\Exception\\": 0.3333333333333333
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\AsQueryHandler": {
+        "name": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\AsQueryHandler",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\AsQueryHandler"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\": 0.3333333333333333
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler": {
+        "name": "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler",
+        "interface": false,
+        "abstract": true,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Handler\\Type"
+        ],
+        "parents": [],
+        "implements": [],
+        "lcom": 1,
+        "length": 1,
+        "vocabulary": 1,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 2,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 1,
+        "number_operators_unique": 0,
+        "number_operands_unique": 1,
+        "cloc": 4,
+        "loc": 11,
+        "lloc": 7,
+        "mi": 211.21,
+        "mIwoC": 171,
+        "commentWeight": 40.21,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 0,
+        "relativeDataComplexity": 1,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 0,
+        "totalDataComplexity": 1,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Handler\\Attribute\\",
+        "pageRank": 0.05,
+        "afferentCoupling": 2,
+        "efferentCoupling": 1,
+        "instability": 0.33,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Handler\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Handler\\Attribute\\AsHandler"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\AsCommandHandler",
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\AsQueryHandler"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\",
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Type"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.3333333333333333,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Handler\\": 0.5
+        },
+        "distance": 0.23570226039551578,
+        "normalized_distance": 0.33333333333333326,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Exception\\CqrsException": {
+        "name": "Shrikeh\\Cqrs\\Exception\\CqrsException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Throwable"
+        ],
+        "parents": [
+            "Throwable"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Exception\\",
+        "pageRank": 0.28,
+        "afferentCoupling": 3,
+        "efferentCoupling": 1,
+        "instability": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\HandlerException",
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException",
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\Exception\\",
+            "Shrikeh\\Cqrs\\Bus\\Exception\\",
+            "Shrikeh\\Cqrs\\Message\\Exception\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Throwable"
+        ],
+        "outgoing_package_dependencies": [
+            "\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.25,
+        "dependent_instabilities": [],
+        "distance": 0.17677669529663687,
+        "normalized_distance": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\QueryBusException": {
+        "name": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\QueryBusException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\QueryBusException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Bus\\Exception\\": 0.3333333333333333
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\AsQueryBus": {
+        "name": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\AsQueryBus",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\AsQueryBus"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\": 0.3333333333333333
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException": {
+        "name": "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Bus\\Exception\\",
+        "pageRank": 0.05,
+        "afferentCoupling": 2,
+        "efferentCoupling": 1,
+        "instability": 0.33,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\QueryBusException",
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\CommandBusException"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Exception\\",
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.3333333333333333,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Exception\\": 0.25
+        },
+        "distance": 0.23570226039551578,
+        "normalized_distance": 0.33333333333333326,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\CommandBusException": {
+        "name": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\CommandBusException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Exception\\CommandBusException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\MessageBusException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Bus\\Exception\\": 0.3333333333333333
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\AsCommandBus": {
+        "name": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\AsCommandBus",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\AsCommandBus"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\": 0.3333333333333333
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\CommandBus": {
+        "name": "Shrikeh\\Cqrs\\Bus\\CommandBus",
+        "interface": true,
+        "abstract": true,
+        "methods": [
+            {
+                "name": "__invoke",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus",
+            "Shrikeh\\Cqrs\\Message\\Result",
+            "Shrikeh\\Cqrs\\Message\\Command"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Bus\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 3,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\CommandBus",
+            "Shrikeh\\Cqrs\\Bus\\QueryBus"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus",
+            "Shrikeh\\Cqrs\\Message\\Result",
+            "Shrikeh\\Cqrs\\Message\\Command",
+            "Shrikeh\\Cqrs\\Message\\Query"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\",
+            "Shrikeh\\Cqrs\\Message\\"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.8,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\": 0,
+            "Shrikeh\\Cqrs\\Message\\": 0.25
+        },
+        "distance": 0.565685424949238,
+        "normalized_distance": 0.8,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\QueryBus": {
+        "name": "Shrikeh\\Cqrs\\Bus\\QueryBus",
+        "interface": true,
+        "abstract": true,
+        "methods": [
+            {
+                "name": "__invoke",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus",
+            "Shrikeh\\Cqrs\\Message\\Result",
+            "Shrikeh\\Cqrs\\Message\\Query"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Bus"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Bus\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 3,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus": {
+        "name": "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus",
+        "interface": false,
+        "abstract": true,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Bus\\Type"
+        ],
+        "parents": [],
+        "implements": [],
+        "lcom": 1,
+        "length": 1,
+        "vocabulary": 1,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 2,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 1,
+        "number_operators_unique": 0,
+        "number_operands_unique": 1,
+        "cloc": 4,
+        "loc": 11,
+        "lloc": 7,
+        "mi": 211.21,
+        "mIwoC": 171,
+        "commentWeight": 40.21,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 0,
+        "relativeDataComplexity": 1,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 0,
+        "totalDataComplexity": 1,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Bus\\Attribute\\",
+        "pageRank": 0.05,
+        "afferentCoupling": 2,
+        "efferentCoupling": 1,
+        "instability": 0.33,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Bus\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Bus\\Attribute\\AsBus"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\AsQueryBus",
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\AsCommandBus"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\",
+            "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\Type"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.3333333333333333,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Bus\\": 0.8
+        },
+        "distance": 0.23570226039551578,
+        "normalized_distance": 0.33333333333333326,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message": {
+        "name": "Shrikeh\\Cqrs\\Message",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [],
+        "parents": [],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\",
+        "pageRank": 0.11,
+        "afferentCoupling": 3,
+        "efferentCoupling": 0,
+        "instability": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\": {
+        "name": "Shrikeh\\Cqrs\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message",
+            "Shrikeh\\Cqrs\\Bus",
+            "Shrikeh\\Cqrs\\Handler"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\QueryHandler",
+            "Shrikeh\\Cqrs\\Handler\\CommandHandler",
+            "Shrikeh\\Cqrs\\Bus\\CommandBus",
+            "Shrikeh\\Cqrs\\Bus\\QueryBus",
+            "Shrikeh\\Cqrs\\Message\\Result",
+            "Shrikeh\\Cqrs\\Message\\Query",
+            "Shrikeh\\Cqrs\\Message\\Command"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Handler\\",
+            "Shrikeh\\Cqrs\\Bus\\",
+            "Shrikeh\\Cqrs\\Message\\"
+        ],
+        "abstraction": 1,
+        "instability": 0,
+        "dependent_instabilities": [],
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Exception\\MessageException": {
+        "name": "Shrikeh\\Cqrs\\Message\\Exception\\MessageException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\Exception\\",
+        "pageRank": 0.06,
+        "afferentCoupling": 3,
+        "efferentCoupling": 1,
+        "instability": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\CqrsException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Exception\\"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Exception\\QueryException",
+            "Shrikeh\\Cqrs\\Message\\Result\\Exception\\ResultException",
+            "Shrikeh\\Cqrs\\Message\\Command\\Exception\\CommandException"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Exception\\",
+            "Shrikeh\\Cqrs\\Message\\Result\\Exception\\",
+            "Shrikeh\\Cqrs\\Message\\Command\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.25,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Exception\\": 0.25
+        },
+        "distance": 0.17677669529663687,
+        "normalized_distance": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Result": {
+        "name": "Shrikeh\\Cqrs\\Message\\Result",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 2,
+        "efferentCoupling": 1,
+        "instability": 0.33,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Result",
+            "Shrikeh\\Cqrs\\Message\\Query",
+            "Shrikeh\\Cqrs\\Message\\Command"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\CommandBus",
+            "Shrikeh\\Cqrs\\Bus\\QueryBus",
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Bus\\",
+            "Shrikeh\\Cqrs\\Message\\Attribute\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.25,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\": 0
+        },
+        "distance": 0.17677669529663687,
+        "normalized_distance": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Query": {
+        "name": "Shrikeh\\Cqrs\\Message\\Query",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 1,
+        "efferentCoupling": 1,
+        "instability": 0.5,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Command": {
+        "name": "Shrikeh\\Cqrs\\Message\\Command",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 1,
+        "efferentCoupling": 1,
+        "instability": 0.5,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Query\\Exception\\QueryException": {
+        "name": "Shrikeh\\Cqrs\\Message\\Query\\Exception\\QueryException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\Query\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Query\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Query\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Exception\\QueryException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Exception\\": 0.25
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\AsQuery": {
+        "name": "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\AsQuery",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\AsQuery"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Attribute\\": 0.25
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Result\\Exception\\ResultException": {
+        "name": "Shrikeh\\Cqrs\\Message\\Result\\Exception\\ResultException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\Result\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Result\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Result\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Result\\Exception\\ResultException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Exception\\": 0.25
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\AsResult": {
+        "name": "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\AsResult",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\AsResult"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Attribute\\": 0.25
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage": {
+        "name": "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage",
+        "interface": false,
+        "abstract": true,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Type"
+        ],
+        "parents": [],
+        "implements": [],
+        "lcom": 1,
+        "length": 1,
+        "vocabulary": 1,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 2,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 1,
+        "number_operators_unique": 0,
+        "number_operands_unique": 1,
+        "cloc": 4,
+        "loc": 11,
+        "lloc": 7,
+        "mi": 211.21,
+        "mIwoC": 171,
+        "commentWeight": 40.21,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 0,
+        "relativeDataComplexity": 1,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 0,
+        "totalDataComplexity": 1,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Message\\Attribute\\",
+        "pageRank": 0.06,
+        "afferentCoupling": 3,
+        "efferentCoupling": 1,
+        "instability": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "incoming_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\AsQuery",
+            "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\AsResult",
+            "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\AsCommand"
+        ],
+        "incoming_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\",
+            "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\",
+            "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Type"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\"
+        ],
+        "abstraction": 1,
+        "instability": 0.25,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\": 0.25
+        },
+        "distance": 0.17677669529663687,
+        "normalized_distance": 0.25,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Command\\Exception\\CommandException": {
+        "name": "Shrikeh\\Cqrs\\Message\\Command\\Exception\\CommandException",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\Message\\Command\\Exception\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Command\\Exception\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Command\\Exception\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Command\\Exception\\CommandException"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\MessageException"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Exception\\"
+        ],
+        "abstraction": 1,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Exception\\": 0.25
+        },
+        "distance": 0.7071067811865475,
+        "normalized_distance": 1,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\AsCommand": {
+        "name": "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\AsCommand",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 1,
+        "nbMethods": 1,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 1,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 1,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "parents": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "implements": [],
+        "lcom": 1,
+        "length": 0,
+        "vocabulary": 0,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 0,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 0,
+        "number_operators_unique": 0,
+        "number_operands_unique": 0,
+        "cloc": 4,
+        "loc": 12,
+        "lloc": 8,
+        "mi": 209.99,
+        "mIwoC": 171,
+        "commentWeight": 38.99,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 1,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 1,
+        "totalStructuralComplexity": 1,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 1,
+        "package": "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\",
+        "pageRank": 0.01,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "numberOfUnitTests": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\": {
+        "name": "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\",
+        "classes": [
+            "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\AsCommand"
+        ],
+        "outgoing_class_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\AsMessage"
+        ],
+        "outgoing_package_dependencies": [
+            "Shrikeh\\Cqrs\\Message\\Attribute\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": {
+            "Shrikeh\\Cqrs\\Message\\Attribute\\": 0.25
+        },
+        "distance": 0,
+        "normalized_distance": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "Shrikeh\\Cqrs\\Bus": {
+        "name": "Shrikeh\\Cqrs\\Bus",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [],
+        "parents": [],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 2,
+        "efferentCoupling": 0,
+        "instability": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "Shrikeh\\Cqrs\\Handler": {
+        "name": "Shrikeh\\Cqrs\\Handler",
+        "interface": true,
+        "abstract": true,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [],
+        "parents": [],
+        "implements": [],
+        "kanDefect": 0.15,
+        "package": "Shrikeh\\Cqrs\\",
+        "pageRank": 0.05,
+        "afferentCoupling": 2,
+        "efferentCoupling": 0,
+        "instability": 0,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\InterfaceMetric"
+    },
+    "tree": {
+        "name": "tree",
+        "depthOfInheritanceTree": 2.29,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "git": {
+        "name": "git",
+        "history": {
+            "2025-42": {
+                "nbFiles": 36,
+                "additions": 200,
+                "removes": 121
+            }
+        },
+        "authors": {
+            "Barney Hanlon": {
+                "nbFiles": 70,
+                "commits": 4,
+                "additions": 584,
+                "removes": 121
+            }
+        },
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "tests\/src\/bootstrap.php": {
+        "name": "tests\/src\/bootstrap.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus.php": {
+        "name": "src\/Bus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/Attribute\/AsBus.php": {
+        "name": "src\/Bus\/Attribute\/AsBus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/CommandBus.php": {
+        "name": "src\/Bus\/CommandBus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/CommandBus\/Attribute\/AsCommandBus.php": {
+        "name": "src\/Bus\/CommandBus\/Attribute\/AsCommandBus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/CommandBus\/Exception\/CommandBusException.php": {
+        "name": "src\/Bus\/CommandBus\/Exception\/CommandBusException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/Exception\/MessageBusException.php": {
+        "name": "src\/Bus\/Exception\/MessageBusException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/QueryBus.php": {
+        "name": "src\/Bus\/QueryBus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/QueryBus\/Attribute\/AsQueryBus.php": {
+        "name": "src\/Bus\/QueryBus\/Attribute\/AsQueryBus.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/QueryBus\/Exception\/QueryBusException.php": {
+        "name": "src\/Bus\/QueryBus\/Exception\/QueryBusException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Bus\/Type.php": {
+        "name": "src\/Bus\/Type.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Exception\/CqrsException.php": {
+        "name": "src\/Exception\/CqrsException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler.php": {
+        "name": "src\/Handler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/Attribute\/AsHandler.php": {
+        "name": "src\/Handler\/Attribute\/AsHandler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/CommandHandler.php": {
+        "name": "src\/Handler\/CommandHandler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/CommandHandler\/Attribute\/AsCommandHandler.php": {
+        "name": "src\/Handler\/CommandHandler\/Attribute\/AsCommandHandler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/CommandHandler\/Exception\/CommandHandlerException.php": {
+        "name": "src\/Handler\/CommandHandler\/Exception\/CommandHandlerException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/Exception\/HandlerException.php": {
+        "name": "src\/Handler\/Exception\/HandlerException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/QueryHandler.php": {
+        "name": "src\/Handler\/QueryHandler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/QueryHandler\/Attribute\/AsQueryHandler.php": {
+        "name": "src\/Handler\/QueryHandler\/Attribute\/AsQueryHandler.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/QueryHandler\/Exception\/QueryHandlerException.php": {
+        "name": "src\/Handler\/QueryHandler\/Exception\/QueryHandlerException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Handler\/Type.php": {
+        "name": "src\/Handler\/Type.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message.php": {
+        "name": "src\/Message.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Attribute\/AsMessage.php": {
+        "name": "src\/Message\/Attribute\/AsMessage.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Command.php": {
+        "name": "src\/Message\/Command.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Command\/Attribute\/AsCommand.php": {
+        "name": "src\/Message\/Command\/Attribute\/AsCommand.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Command\/Exception\/CommandException.php": {
+        "name": "src\/Message\/Command\/Exception\/CommandException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Exception\/MessageException.php": {
+        "name": "src\/Message\/Exception\/MessageException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Query.php": {
+        "name": "src\/Message\/Query.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Query\/Attribute\/AsQuery.php": {
+        "name": "src\/Message\/Query\/Attribute\/AsQuery.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Query\/Exception\/QueryException.php": {
+        "name": "src\/Message\/Query\/Exception\/QueryException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Result.php": {
+        "name": "src\/Message\/Result.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Result\/Attribute\/AsResult.php": {
+        "name": "src\/Message\/Result\/Attribute\/AsResult.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Result\/Exception\/ResultException.php": {
+        "name": "src\/Message\/Result\/Exception\/ResultException.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "src\/Message\/Type.php": {
+        "name": "src\/Message\/Type.php",
+        "gitChanges": 2,
+        "numberOfUnitTests": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\FileMetric"
+    },
+    "unitTesting": {
+        "name": "unitTesting",
+        "assertions": 7,
+        "tests": {
+            "Tests\\Unit\\Bus\\CommandBus\\Attribute\\AsCommandBusTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Bus\\CommandBus\\Attribute\\AsCommandBus"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Bus\/CommandBus\/Attribute\/AsCommandBusTest.php",
+                "classname": "Tests\\Unit\\Bus\\CommandBus\\Attribute\\AsCommandBusTest",
+                "assertions": "1",
+                "time": "0.399883"
+            },
+            "Tests\\Unit\\Bus\\QueryBus\\Attribute\\AsQueryBusTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Bus\\QueryBus\\Attribute\\AsQueryBus"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Bus\/QueryBus\/Attribute\/AsQueryBusTest.php",
+                "classname": "Tests\\Unit\\Bus\\QueryBus\\Attribute\\AsQueryBusTest",
+                "assertions": "1",
+                "time": "0.386324"
+            },
+            "Tests\\Unit\\Handler\\CommandHandler\\Attribute\\AsCommandHandlerTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Handler\\CommandHandler\\Attribute\\AsCommandHandler"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Handler\/CommandHandler\/Attribute\/AsCommandHandlerTest.php",
+                "classname": "Tests\\Unit\\Handler\\CommandHandler\\Attribute\\AsCommandHandlerTest",
+                "assertions": "1",
+                "time": "0.417245"
+            },
+            "Tests\\Unit\\Handler\\QueryHandler\\Attribute\\AsQueryHandlerTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Handler\\QueryHandler\\Attribute\\AsQueryHandler"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Handler\/QueryHandler\/Attribute\/AsQueryHandlerTest.php",
+                "classname": "Tests\\Unit\\Handler\\QueryHandler\\Attribute\\AsQueryHandlerTest",
+                "assertions": "1",
+                "time": "0.393424"
+            },
+            "Tests\\Unit\\Message\\Command\\Attribute\\AsCommandTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Message\\Command\\Attribute\\AsCommand"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Message\/Command\/Attribute\/AsCommandTest.php",
+                "classname": "Tests\\Unit\\Message\\Command\\Attribute\\AsCommandTest",
+                "assertions": "1",
+                "time": "0.396534"
+            },
+            "Tests\\Unit\\Message\\Query\\Attribute\\AsQueryTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Message\\Query\\Attribute\\AsQuery"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Message\/Query\/Attribute\/AsQueryTest.php",
+                "classname": "Tests\\Unit\\Message\\Query\\Attribute\\AsQueryTest",
+                "assertions": "1",
+                "time": "0.365935"
+            },
+            "Tests\\Unit\\Message\\Result\\Attribute\\AsResultTest": {
+                "nbExternals": 2,
+                "externals": [
+                    "PHPUnit\\Framework\\TestCase",
+                    "Shrikeh\\Cqrs\\Message\\Result\\Attribute\\AsResult"
+                ],
+                "filename": "\/shrikeh\/tests\/src\/Unit\/Message\/Result\/Attribute\/AsResultTest.php",
+                "classname": "Tests\\Unit\\Message\\Result\\Attribute\\AsResultTest",
+                "assertions": "1",
+                "time": "0.356846"
+            }
+        },
+        "nbSuites": 7,
+        "nbCoveredClasses": 7,
+        "percentCoveredClasses": 22.58,
+        "nbUncoveredClasses": 24,
+        "percentUncoveredClasses": 77.42,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "composer": {
+        "name": "composer",
+        "packages": [],
+        "packages-installed": [],
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "searches": {
+        "name": "searches",
+        "violations": {},
+        "_type": "Hal\\Metric\\SearchMetric"
+    }
+}

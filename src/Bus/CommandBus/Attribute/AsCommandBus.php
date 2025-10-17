@@ -8,6 +8,9 @@ use Attribute;
 use Shrikeh\Cqrs\Bus\Attribute\AsBus;
 use Shrikeh\Cqrs\Bus\Type;
 
+/**
+ * @psalm-api
+ */
 #[Attribute(Attribute::TARGET_CLASS)]
 readonly class AsCommandBus extends AsBus
 {
