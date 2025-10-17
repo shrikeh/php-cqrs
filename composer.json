@@ -1,5 +1,5 @@
 {
-    "name": "shrikeh/cqrs-contracts",
+    "name": "shrikeh/cqrs",
     "description": "Contracts for CQRS-style applications",
     "type": "library",
     "license": "MIT",
@@ -19,6 +19,9 @@
       "php": ">=8.3"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^4.0"
+        "squizlabs/php_codesniffer": "^4.0",
+        "symfony/dotenv": "^7.3",
+        "phpunit/phpunit": "^12.4",
+        "phpspec/prophecy-phpunit": "^2.4"
     }
 }
