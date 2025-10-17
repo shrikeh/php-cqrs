@@ -1,6 +1,7 @@
 <?php
 
-use NunoMaduro\Collision\Provider;
+declare(strict_types=1);
+
 use Symfony\Component\Dotenv\Dotenv;
 
 require dirname(__DIR__).'/vendor/autoload.php';
@@ -13,4 +14,3 @@ if ($_SERVER['APP_DEBUG']) {
     umask(0000);
 }
 
-//(new Provider)->register();
