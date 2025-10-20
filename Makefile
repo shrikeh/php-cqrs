@@ -13,7 +13,7 @@ endif
 -include .dev/make/php.mk
 
 .auth:
-	@.dev/sh/auth.sh;
+	.dev/sh/auth.sh;
 
 auth:
 	$(info [+] Make: Checking for token for composer)

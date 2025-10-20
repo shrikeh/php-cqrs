@@ -16,8 +16,8 @@ interface CommandBus extends Bus
 {
     /**
      * @param Command $command
-     * @return Result
+     * @return Result|null
      * @throws CommandBusException
      */
-    public function __invoke(Command $command): Result;
+    public function __invoke(Command $command): ?Result;
 }

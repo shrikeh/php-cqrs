@@ -7,11 +7,3 @@ services:
     volumes:
       - "./:/shrikeh"
       - "./.build/xdebug:/var/log/xdebug"
-  gomplate:
-    container_name: gomplate
-    image: hairyhenderson/gomplate:latest
-    profiles:
-      - templates
-    volumes:
-      - "./.dev/templates:/templates:ro"
-      - "./:/output"
